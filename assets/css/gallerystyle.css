@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container .navbar {
+	z-index: 898;
+}
+
+.main-gallery {
+	padding: 15px 5px;
+	background-color: #ecf2f8;
+}
+
+.main-gallery .navholder {
+	padding: 10px;
+	background-color: #ecf2f8;
+	z-index: 897;
+}
+
+.main-gallery .nav .nav-link {
+	color: #152637;
+}
+
+.main-gallery .nav .active {
+	background-color: #dae6f1;
+	color: #152637;
+	border: 1px solid #294d70; 
+}
+
+.main-gallery .galleryholder {
+	padding: 10px;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.row-gal > .col-gal {
+	padding: 8px 8px;
+}
+
+.row-gal .col-gal img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 10%;
+	border: 2px solid lightgray;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 899;
+  padding-top: 5px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0 , 0, 1);
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: fixed;
+  top: 10px;
+  right: 25px;
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 5px;
+  z-index: 999;
+}
+
+.close:hover, .close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 30px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.7s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(218, 230, 241, 0.5);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgba(0, 0 , 0, 1);
+  padding: 0px 0px;
+  color: white;
+}
+
+.thumbpic {
+  opacity: 0.6;
+}
+
+.active, .thumbpic:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 1px 1px 10px 5px rgba(21, 38, 55, 0.5);
+}
+
+#myModal .modal-content .mySlides img {
+	width: 100%;
+	height: 600px;
+	object-fit: contain;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.row-thumb:after {
+	content: "";
+ 	display: table;
+ 	clear: both;
+}
+
+.col-thumb .thumbpic {
+	width: 100%;
+	height: 75px;
+	object-fit: cover;
+}

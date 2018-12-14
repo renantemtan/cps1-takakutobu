@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+
+	<title>takakutobu - contact</title>
+
+	<!-- CDN Links -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- EO CDN Links -->
+
+	<!-- Links -->
+	<link rel="icon" type="image/png" href="assets/images/mainicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/navfoot.css">	
+	<link rel="stylesheet" type="text/css" href="assets/css/contactstyle.css">
+	<!-- CSS Links -->
+
+</head>
+<body>
+<div class="container">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 sticky-top">
+		<a class="navbar-brand" href="index.html">
+			<img class="mdh-logo" src="assets/images/mainicon.png" alt="">
+			takakutobu
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#toggling-navbar" aria-controls="toggling-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+		 </button>
+
+		 <div class="collapse navbar-collapse justify-content-end" id="toggling-navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link px-3" href="home.html" target="_blank">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3" href="about.html" target="_blank">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3 active" href="contact.html">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link px-3" href="gallery.html" target="_blank">Gallery</a>
+				</li> 
+			</ul>
+		</div>
+
+	</nav>
+	<!-- EO Navigation -->
+ 	
+	<!-- Contact Page -->
+	<div class="contactpage">
+		<div class="row no-gutters">
+			<div class="contactlist col-lg-6 col-md-6 col-sm-12">
+				<div class="contactlistrow row no-gutters">
+					<div class="contacticon col-3 w-100">
+						<i class="fas fa-phone-square"></i>
+						<span>Phone:</span>
+					</div>
+					<div class="contactdetail col-9 w-100">
+						<img class="phicon" src="assets/images/phicon.png">
+						<span id="phonenum">+63.917.837.5643</span>
+					</div>
+				</div>
+
+				<div class="contactlistrow row no-gutters">
+					<div class="contacticon col-4 w-100">
+						<i class="fas fa-at"></i>
+						<span>Email:</span>
+					</div>
+					<div class="contactdetail col-8 w-100">
+						<span>renantemtan@gmail.com</span>
+					</div>
+				</div>
+
+				<div class="contactlistrow row no-gutters">
+					<div class="contacticon col-4 w-100">
+						<i class="fab fa-facebook-messenger"></i>
+						<span>Messenger</span>
+					</div>
+					<div class="contactdetail col-8 w-100">
+						<span>@ray.tan.7857</span>
+					</div>
+				</div>
+
+				<div class="contactlistrow row no-gutters">
+					<div class="contacticon col-4 w-100">
+						<i class="fab fa-linkedin"></i>
+						<span>LinkedIn:</span>
+					</div>
+					<div class="contactdetail col-8 w-100">
+						<span>/in/renante-tan-32564a42</span>
+					</div>
+				</div>
+
+				<div class="row no-gutters">
+					<div class="contactqmsg col-12 w-100 px-2 text-center">
+						<span>Alternatively, click the button below to send me a quick message!</span>
+						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#quickMessage" data-whatever="@renantetan">Send a quick message!</button>
+						</span>
+
+						<div class="modal fade" id="quickMessage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Quick message</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<form>
+											<div class="form-group">
+												<label for="contactinfo" class="col-form-label">Enter your contact info:</label>
+												<input type="text" class="form-control" id="contactinfo" placeholder="Email or Phone">
+											</div>
+											<div class="form-group">
+												<label for="subjectinfo" class="col-form-label">Subject:</label>
+												<input type="text" class="form-control" id="subjectinfo" placeholder="What do you want to talk about?">
+											</div>		
+											<div class="form-group">
+												<label for="message-text" class="col-form-label">Message:</label>
+												<textarea class="form-control" id="message-text"></textarea>
+											</div>
+										</form>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Send message</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="gmap col-lg-6 col-md-6 col-sm-12">
+				<div class="row">
+					<div class="col-12">
+						<span>My Office Location: Manila, Philippines</span>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.0464689282503!2d120.98024601478832!3d14.539334689841445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cbfc9f917fcf%3A0xd836b946e5082051!2sFive+E-Com+Center!5e0!3m2!1sen!2sph!4v1544533578297"allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- EO Contact Page -->
+	
+	<!-- Footer -->
+	<div class="footer">
+		<div class="row no-gutters">
+			<div class="footer-img col-lg-6 col-12 d-flex justify-content-lg-end justify-content-center px-2">
+				<img class="mdh-logo" src="assets/images/mainicon.png" alt="">
+			</div>
+			<div class="footer-cr col-lg-6 col-12 d-flex justify-content-lg-start justify-content-center px-2">
+				<p>Copyright 2019</p>
+			</div>
+		</div>
+	</div>
+	<!-- EO Footer -->
+
+</div>
+<!-- Script Links -->
+<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<!-- EO Script Links -->
+
+</body>
+</html>

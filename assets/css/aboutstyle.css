@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.aboutpage {
+	background-color: #ecf2f8;
+	/*height: 520px;*/
+	padding: 20px;
+}
+
+.contain {
+	background-color: white; 
+	border-radius: 20px;
+	border: 1px solid lightgray;
+}
+
+.colmisvis {
+	background-color: white;
+}
+
+.colmisvispic {
+	background-image: url('../images/eaglebeer.jpg');
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	align-items: center;
+  	background-size: cover;
+  	background-position: center center;
+  	min-height: 600px;
+}
+
+h3 {
+	font-family: 'Kaushan Script', cursive;
+	margin-top: 10px;
+}
+
+.misvis {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+
+blockquote {
+	background-color: rgba(215, 218, 219, 0.8);
+	padding: 5px 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	width: 100%;
+}
+
+.myquote {
+	font-weight: bold;
+}

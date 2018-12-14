@@ -1,0 +1,46 @@
+/* Navigation Bar */
+.container .navbar {
+	background-color: #294d70 !important;
+}
+
+.container .navbar a {
+	font-family: 'Kaushan Script', cursive;
+	color: #1ac6ff;
+	text-shadow: 2px 2px 5px black; 
+}
+
+.mdh-logo {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	display: inline-block;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: white;
+}
+
+.navbar-nav .nav-item .active{
+	/*color: black !important;*/
+	background-color: rgba(141, 180, 216, 0.2);
+	border-radius: 0 20% 0 0;
+	/*height: 100%;*/
+}
+
+/* EO Navigation Bar */
+
+/* Footer */
+.footer {
+	background-color: #294d70;
+	color: white;
+	padding: 10px;
+	height: 100px;
+}
+
+.footer .footer-cr p {
+	line-height: 30px;
+	font-family: 'Kaushan Script', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px black; 
+}
+/* EO Footer*/

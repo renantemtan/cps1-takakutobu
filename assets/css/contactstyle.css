@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contactpage {
+	background-color: #ecf2f8;
+	/*height: 700px;*/
+	padding: 10px;
+}
+
+.contactpage .row .contactlist {
+	/*background-color: white;*/
+	border-radius: 10px;
+	padding: 10px;
+	/*height: 600px;*/
+}
+
+.contactpage .row .contactlist .contactlistrow {
+	background-color: white;
+	height: 70px;
+	border: 1px solid #a2bfdd;
+	border-radius: 5px;
+	position: relative;
+	margin: 20px 0;
+}
+
+.contactpage .row .contactlist .row .contacticon {
+	/*background-color: lightyellow;*/
+	line-height: 70px;
+	padding-left: 10px;
+}
+
+.fas, .fab {
+	font-size: 3vw;
+	color: black;
+}
+
+.contactpage .row .contactlist .row .contacticon span {
+	font-size: 3vw;
+	line-height: 70px;
+}
+
+.contactpage .row .contactlist .row .contactdetail {
+	/*background-color: lightgreen;*/
+	height: 70px;
+}
+
+.contactpage .row .contactlist .row .contactdetail img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: inline-block;
+}
+
+.contactpage .row .contactlist .row .contactdetail #phonenum {
+	margin-left: 35px;
+}
+
+.contactpage .row .contactlist .row .contactdetail span {
+	font-size: 3vw;
+	line-height: 70px;	
+	font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+	.contactpage .row .contactlist .row .contactdetail span {
+		font-size: 15px;
+	}	
+	.contactpage .row .contactlist .row .contacticon span {
+		font-size: 15px;
+		line-height: 70px;
+	}
+	.fas, .fab {
+		font-size: 15px;
+		color: black;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.contactpage .row .contactlist .row .contactdetail span {
+		font-size: 20px;
+	}	
+	.contactpage .row .contactlist .row .contacticon span {
+		font-size: 20px;
+		line-height: 70px;
+	}
+	.fas, .fab {
+		font-size: 20px;
+		color: black;
+	}
+}
+
+.contactqmsg span {
+	font-size: 15px;
+}
+
+.contactqmsg .btn {
+	background-color: #00cccc;
+	border: 1px solid #006666;
+	width: 90%;
+	margin-top: 5px;
+}
+
+.gmap {
+	padding: 30px;
+}
+
+iframe {
+	width: 100%;
+	height: 400px;
+}
